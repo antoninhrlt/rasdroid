@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Rasdroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+
+        <item name="android:backgroundTint">@color/primary</item>
+    </style>
+
+    <style name="Theme.Rasdroid.Button" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/black</item>
+
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.Rasdroid.Control.Button" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/black</item>
+
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textSize">18sp</item>
+
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+
+    <style name="Theme.Rasdroid.EditText" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@drawable/border</item>
+        <item name="android:backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/grey</item>
+
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
