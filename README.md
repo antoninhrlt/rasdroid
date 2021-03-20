@@ -2,7 +2,7 @@
 Android app written in Java. Contribution of raslib
 
 ### Download rasdroid
-[Link to apk](https://github.com/antoninhrlt/blob/main/rasdroid-antoninhrlt.apk)
+[Link to apk](https://github.com/antoninhrlt/rasdroid/blob/main/rasdroid-antoninhrlt.apk)
 
 ### Start
 1. [Make a server socket with raslib](https://github.com/antoninhrlt/raslib/blob/main/README.md#complete-example) (change ip address for your Raspberry's ip)
