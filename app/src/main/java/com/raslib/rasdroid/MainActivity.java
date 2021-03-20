@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         TextView helpText = findViewById(R.id.help_txt);
         helpText.setClickable(true);
         helpText.setOnClickListener(v -> {
-            openLink(githubUrl + "CONNECTION.txt");
+            openLink(githubUrl + "README.md");
         });
     }
 
