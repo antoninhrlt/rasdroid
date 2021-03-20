@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private void onCreditsBtn() {
         Button creditsBtn = findViewById(R.id.credits_btn);
         creditsBtn.setOnClickListener(v -> {
-            openLink(githubUrl + "CREDITS.txt");
+            openLink("https://github.com/antoninhrlt/");
         });
     }
 
