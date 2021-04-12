@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Open new Internet tab when credits button is clicked to CREDITS.txt in github's repo of
-     * rasdroid. Call to openLink() method to open link
+     * Open new Internet tab when credits button is clicked to antoninhrlt's profil 
+     * Call to openLink() method to open link
      */
     private void onCreditsBtn() {
         Button creditsBtn = findViewById(R.id.credits_btn);
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Open new Internet tab when credits button is clicked to CONNECTION.txt in github's repo of
+     * Open new Internet tab when credits button is clicked to README.md in github's repo of
      * rasdroid. Call to openLink() method to open link
      */
     private void onHelpText() {
